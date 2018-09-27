@@ -1,4 +1,5 @@
 //package pong;
+import pong.*;
 
 import java.awt.Canvas;
 import java.awt.Color;
