@@ -1,0 +1,71 @@
+Batch ~4
+121 games won, 129 games lost
+
+Batches ~5 - 21
+1 - 5 games won, 245 - 250 games lost
+
+Batch 22
+117 games won, 133 games lost
+
+Batch 23
+4 games won, 246 games lost (training cost of 0.41)
+
+Batch 24
+110 games won, 140 games lost (training cost of 0.003)
+
+Batch 25
+6 games won, 244 games lost (training cost of 0.37)
+
+Batch 26
+0 games won, 250 games lost (training cost of 0.008)
+
+Batch 27
+119 games won, 131 games lost (training cost of 0.18)
+
+Batch 29
+1 game won, 249 games lost (training cost of 0.002)
+
+Batch 30
+129 games won, 121 games lost (training cost of 0.197)
+
+Batch 31
+2 games won, 248 games lost (training cost of 0.235 that steadily increased)
+
+Batch 32
+137 games won, 113 games lost (training cost of 0.003)
+
+Batch 33
+9 games won, 241 games lost (training cost of 0.328 that increased)
+
+Batch 34
+4 games won, 246 games lost (training cost of 0.01)
+
+Batch 35
+1 game won, 249 games lost (training cost of 0.003)
+
+Batch 36
+1 game won, 249 games lost (training cost stayed near 0.36)
+
+Batch 37
+127 games won, 123 games lost (training cost stayed near 0.2)
+
+Batch 38
+3 games won, 247 games lost (training cost went from 0.01 to 0.18)
+
+Batch 39
+8 games won, 242 games lost (training cost of 0.03)
+
+Batch 40
+1 game won, 249 games lost (training cost of 0.02)
+
+Batch 41
+2 games won, 248 games lost (training cost of 0.009)
+
+Batch 42
+1 game won, 249 games lost (training cost of 0.006)
+
+Batch 43
+1 game won, 249 games lost (training cost of 0.004)
+
+Batch 45 - 19 1/2 hours
+1 game won, 249 games lost (training cost of 0.001)
