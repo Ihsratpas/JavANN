@@ -6,7 +6,7 @@ import pong.Game;
 public class PongNetworkTest {
 
 	public static void main(String[] args) throws IOException {
-		String file = "PongNetworks1/Batch37";
+		String file = args[0];//"C:/Users/Babtu/Documents/PongNetworks1/Batch37";
 		NeuralNetwork fileTest = new NeuralNetwork();
 		fileTest.setNetwork(6,1,1,10,"sigmoid");
 		fileTest.createNetwork();

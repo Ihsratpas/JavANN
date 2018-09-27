@@ -212,7 +212,7 @@ public class NeuralNetwork{
 		
 	//Retrieves weights and biases from text files
 	public void setFileWeights(String fileName) throws IOException {
-		Scanner reader = new Scanner(new BufferedReader(new FileReader("C:/Users/Babtu/Documents/" + fileName)));
+		Scanner reader = new Scanner(new BufferedReader(new FileReader(fileName)));
 		int layer = 0;
 		int neuron = 0;
 		int lastNeuron = 0;
@@ -238,7 +238,7 @@ public class NeuralNetwork{
 		reader.close();
 	}
 	public void setFileBiases(String fileName) throws IOException {
-		Scanner reader = new Scanner(new BufferedReader(new FileReader("C:/Users/Babtu/Documents/" + fileName)));
+		Scanner reader = new Scanner(new BufferedReader(new FileReader(fileName)));
 		int layer = 0;
 		int neuron = 0;
 		String currentLine = "";
