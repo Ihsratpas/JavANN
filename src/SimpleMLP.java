@@ -8,7 +8,7 @@ public class SimpleMLP {
 
 		int neurons[] = {2,1};
 		MLP mlp = new MLP(neurons,"sigmoid","MSE");
-		mlp.getCSVData("flower.csv");
+		mlp.getCSVData(args[0]);
 		mlp.createNetwork();
 		for(int i = 0;i < 50000;i++) {
 			mlp.trainSGD((float).1,8);

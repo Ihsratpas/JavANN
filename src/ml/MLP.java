@@ -54,8 +54,8 @@ public class MLP implements Serializable{
 		int row = 0;
 		String inLine = "";
 
-		Scanner reader = new Scanner(new BufferedReader(new FileReader("C:/Users/Babtu/Documents/Datasets/" + fileName)));
-		BufferedReader read = new BufferedReader(new FileReader("C:/Users/Babtu/Documents/Datasets/" + fileName));
+		Scanner reader = new Scanner(new BufferedReader(new FileReader(fileName)));
+		BufferedReader read = new BufferedReader(new FileReader(fileName));
 		while(read.readLine() != null) {
 			columns += 1;
 		}
@@ -103,8 +103,8 @@ public class MLP implements Serializable{
 		int row = 0;
 		String inLine = "";
 
-		Scanner reader = new Scanner(new BufferedReader(new FileReader("C:/Users/Babtu/Documents/Datasets/" + fileName)));
-		BufferedReader read = new BufferedReader(new FileReader("C:/Users/Babtu/Documents/Datasets/" + fileName));
+		Scanner reader = new Scanner(new BufferedReader(new FileReader(fileName)));
+		BufferedReader read = new BufferedReader(new FileReader(fileName));
 		while(read.readLine() != null) {
 			columns += 1;
 		}
@@ -138,7 +138,7 @@ public class MLP implements Serializable{
 	}
 	public float[][] toOneHot(String fileName,int dataLength) throws Exception {
 		float[] trainingData[] = new float[dataLength][neuronNumbers[0] + neuronNumbers[neuronNumbers.length - 1]];
-		Scanner train = new Scanner(new BufferedReader(new FileReader("C:/Users/Babtu/Documents/Datasets/" + fileName)));
+		Scanner train = new Scanner(new BufferedReader(new FileReader(fileName)));
 		train.nextLine();
 		for(int i = 0;i < trainingData.length;i++) {
 			String stringValues[] = train.nextLine().split(",");
@@ -234,7 +234,7 @@ public class MLP implements Serializable{
 		
 	//Retrieves weights and biases from text files
 	public void setFileWeights(String fileName) throws IOException {
-		Scanner reader = new Scanner(new BufferedReader(new FileReader("C:/Users/Babtu/Documents/" + fileName)));
+		Scanner reader = new Scanner(new BufferedReader(new FileReader(fileName)));
 		int layer = 0;
 		int neuron = 0;
 		int lastNeuron = 0;
@@ -260,7 +260,7 @@ public class MLP implements Serializable{
 		reader.close();
 	}
 	public void setFileBiases(String fileName) throws IOException {
-		Scanner reader = new Scanner(new BufferedReader(new FileReader("C:/Users/Babtu/Documents/" + fileName)));
+		Scanner reader = new Scanner(new BufferedReader(new FileReader(fileName)));
 		int layer = 0;
 		int neuron = 0;
 		String currentLine = "";
